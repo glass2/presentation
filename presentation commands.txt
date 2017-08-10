@@ -1,0 +1,14 @@
+138.68.11.232:21
+
+list the files
+-h h -un u -pw p -ls /
+
+create directory and file
+
+rename file
+
+download that file
+
+delete file
+
+upload file
