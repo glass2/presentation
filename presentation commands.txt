@@ -1,0 +1,17 @@
+list the files
+java -jar ezftp.jar -h h -un u -pw p -ls /
+
+create directory
+java -jar ezftp.jar -h h -un un -pw p -nd /ImNew
+
+rename file
+java -jar ezftp.jar -h h -un un -pw p -rn /upload/testUpload.txt /upload/testRename.txt
+
+download that file
+java -jar ezftp.jar -h h -un un -pw p -g /upload/testRename.txt ./
+
+delete file
+java -jar ezftp.jar -h h -un un -pw p -d /deleteme
+
+upload file
+java -jar ezftp.jar -h h -un un -pw p -up ./testRename.txt /
